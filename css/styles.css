@@ -1,0 +1,97 @@
+@import "global.css";
+
+.navbar {
+    background-color: var(--NJITColor) !important;
+    box-shadow: var(--shadowDark4dp);
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.navbar-dark .navbar-brand:focus,
+.navbar-dark .navbar-brand:hover {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.navbar-brand {
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+
+#main-navbar {
+    background-image: var(--NJITColorGradient);
+}
+
+#second-navbar {
+    box-shadow: none;
+    background-color: #f5d2d3 !important;
+}
+
+#nav-link-color > .nav-link {
+    color: var(--NJITColor) !important;
+}
+
+div.navbar-mobile {
+    padding-left: 1rem;
+}
+
+@media screen and (max-width: 1000px) {
+    #second-navbar {
+        padding: 0rem;
+    }
+}
+
+#navbar-shadow {
+    box-shadow: var(--shadowDark2dp);
+}
+
+/* font awesome icons */
+
+.fontawesome-icons > a {
+    color: #fff;
+    background: #bd204f;
+    border-radius: 2px;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    display: inline-grid;
+    width: 40px;
+    height: 40px;
+    padding-top: 12px;
+    margin: 0 2px;
+    -o-transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+    -webkit-font-smoothing: antialiased;
+}
+
+.fontawesome-icons > a:hover {
+    box-shadow: var(--MDBoxShadow);
+}
+
+#title-card {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    background-color: #d8121b;
+    color: #fff;
+}
+
+#title-card > h5 {
+    margin-top: .75rem;
+}
+
+#title-card,
+#card-seperator {
+    padding: 0.40rem;
+}
+
+td > a {
+    color: #d8121b;
+}
+
+td > a:hover {
+    color: #bd0003;
+    text-decoration: none;
+}
